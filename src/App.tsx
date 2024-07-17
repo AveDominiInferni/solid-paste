@@ -37,7 +37,7 @@ const App = () => {
       const base64Compressed = arrayBufferToBase64(compressed);
       const encodedCompressed = encodeURIComponent(base64Compressed);
 
-      const url = `${currentOrigin}/#${encodedCompressed}`;
+      const url = `${currentOrigin}/solid-paste/#${encodedCompressed}`;
 
       const result = format === "markdown" ? `[paste](${url})` : url;
 
