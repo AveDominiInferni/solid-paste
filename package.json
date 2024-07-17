@@ -1,0 +1,46 @@
+{
+  "name": "solid-paste",
+  "private": "true",
+  "version": "0.0.1",
+  "homepage": "https://avedominiinferni.github.io/solid-paste/",
+  "description": "A no-datastore, client-side paste service.",
+  "keywords": [
+    "solid",
+    "solidjs",
+    "solid-js",
+    "paste",
+    "lzma"
+  ],
+  "author": "Ajsel Žilić",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AveDominiInferni/solid-paste.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AveDominiInferni/solid-paste/issues"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1",
+    "sass": "^1.77.8",
+    "solid-devtools": "^0.30.1",
+    "typescript": "^5.5.3",
+    "vite": "^5.3.4",
+    "vite-plugin-solid": "^2.10.2"
+  },
+  "dependencies": {
+    "lzma-web": "^3.0.1",
+    "solid-js": "^1.8.18"
+  }
+}
